@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: 'Fjalla One', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    padding:15px 5px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color:white;
+    padding: 6px 20px;
+}
+#navbar li a:hover{
+    color:rgb(229,9,20);
+    background-color: white;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:400px;
+    background-color: rgb(229,9,20);
+    font-size:3rem;
+}
+#sponsor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    background-color: black;
+    color:rgb(229,9,20);
+    font-size:3rem;
+}
+footer{
+    display: block;
+    height:117px;
+    background-color: black;
+    align-items: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+#logo{
+    display:block;
+    height:28px;
+    margin: -1px 15px;
+}
+#bottom{
+    display:block;
+    height:80px;
+    width:auto;
+    margin:auto;
+}
+#details{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height:800px;
+}
+input{
+    display: block;
+    width:33%;
+    height:50px;
+    margin:15px;
+}
+label{
+    margin:15px;
+}
+button{
+    height:50px;
+    width:100px;
+    margin:15px;
+    background-color: black;
+    color:white;
+    border:none;
+    font-size: 20px;
+}
+button:hover{
+    height:50px;
+    width:100px;
+    margin:15px;
+    background-color: white;
+    color:rgb(229,9,20);
+    border:none;
+    font-size: 20px;
+}
